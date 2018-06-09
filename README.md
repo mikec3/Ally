@@ -1,5 +1,6 @@
 HEROKU hosted - follow heroku getting started with how to setup heroku app files
-
+$ git push heroku master     // do this after making changes
+$ heroku open 					// do this to open site
 
 # Ally
 An app to look up what's offensive and or helpful to communities other than yourself
@@ -22,3 +23,5 @@ Scope:
 		- users can search through groups that they are not knowledgable about and see what users have posted in those groups to better educate themselves about how to interact.
 		- eventually users would vote on posts to float relevant info to the top and downvote non-relavent posts to the bottom.
 		
+		
+
