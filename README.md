@@ -12,7 +12,8 @@ Getting Started:
 	
 Scope:
 	homepage
-		- landing page with general info and link to login
+		- landing page with general info and link to login.
+		-redirect URL is set on facebook dashboard
 	login
 		- use facebook login, posting will be anonymous though.
 	profile
