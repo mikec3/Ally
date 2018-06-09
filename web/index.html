@@ -29,6 +29,18 @@
       
     FB.AppEvents.logPageView();   
       
+      
+      	//check user session and refresh it
+	FB.getLoginStatus(function(response) {
+		if (response.status === 'connected') {
+			//user is authorized
+			document.getElementById('loginBtn').style.display = 'none';
+			getUserData();
+			console.log("logged in");
+		} else {
+			//user is not authorized
+		}
+	});
   };
 
   (function(d, s, id){
@@ -49,19 +61,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<script> 
-	//check user session and refresh it
-	FB.getLoginStatus(function(response) {
-		if (response.status === 'connected') {
-			//user is authorized
-			document.getElementById('loginBtn').style.display = 'none';
-			getUserData();
-			console.log("logged in");
-		} else {
-			//user is not authorized
-		}
-	});
-</script>
+
 
 <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div>
 
