@@ -1,28 +1,24 @@
-# php-getting-started
+HEROKU hosted - follow heroku getting started with how to setup heroku app files
 
-A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
 
-This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
-
-## Deploying
-
-Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
-
-```sh
-$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using PHP on Heroku, see these Dev Center articles:
-
-- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
-- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
+# Ally
+An app to look up what's offensive and or helpful to communities other than yourself
+Getting Started:
+	-Clone the repository
+	-navigate to your machine to the Ally folder that you cloned from github
+	-open index.html in your preffered web browser
+	
+	
+Scope:
+	homepage
+		- landing page with general info and link to login
+	login
+		- use facebook login, posting will be anonymous though.
+	profile
+		- eventually users would have reputation scores
+	add experiences
+		- add events or microaggressions that you would like others to know about when dealing with the type of group of people that you are/identify as.
+	search experiences
+		- users can search through groups that they are not knowledgable about and see what users have posted in those groups to better educate themselves about how to interact.
+		- eventually users would vote on posts to float relevant info to the top and downvote non-relavent posts to the bottom.
+		
