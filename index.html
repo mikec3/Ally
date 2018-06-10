@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slide.css">
+
+
+  
+    
+    <title>Ally</title>
+
+    
+  </head>
+  <body>
+
+      <script>
+          $(document).ready( function() {
+              $( "#sidebar" ).simplerSidebar( {
+                  selectors: {
+                      trigger: "#trigger",
+                      quitter: ".close-sidebar"
+                  }
+              } );
+          } );
+      </script>
+
+      
+
+    
+      
+      
+
+    <div class="top-nav">
+      <span class="top-nav-hamburger col-2"><button id="trigger">☰</button></span>
+      <span class="top-nav-welcome col-2">Hi, Jonathan</span>
+    </div>
+    <div class="row">
+      <article class="user-post col-4">
+        <div class="post-header row">
+          <h3 class="post-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna.</h3>
+          <h3 class="post-rating">*****</h3>
+        </div>
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum mollis orci. Maecenas fringilla enim eu blandit pretium. Sed metus arcu, egestas eget est ut, sollicitudin scelerisque justo. Pellentesque dapibus eros condimentum ipsum tincidunt, id venenatis sapien dignissim. Aliquam non accumsan tellus. Donec sit amet convallis sapien, ut venenatis dolor. Curabitur vulputate malesuada erat a consectetur. Pellentesque tincidunt egestas mi, vitae semper ligula.</p>
+        <div class="post-footer row">
+            <span class="post-user">By: Jonathan Owens</span>
+            <div><span class="post-date">June 9, 2018</span></div>
+          </div>
+      </article>
+      <article class="user-post col-4">
+          <div class="post-header row">
+            <h3 class="post-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna.</h3>
+            <h3 class="post-rating">*****</h3>
+          </div>
+          <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum mollis orci. Maecenas fringilla enim eu blandit pretium. Sed metus arcu, egestas eget est ut, sollicitudin scelerisque justo. Pellentesque dapibus eros condimentum ipsum tincidunt, id venenatis sapien dignissim. Aliquam non accumsan tellus. Donec sit amet convallis sapien, ut venenatis dolor. Curabitur vulputate malesuada erat a consectetur. Pellentesque tincidunt egestas mi, vitae semper ligula.</p>
+          <div class="post-footer row">
+              <span class="post-user">By: Jonathan Owens</span>
+              <div><span class="post-date">June 9, 2018</span></div>
+            </div>
+        </article>
+        <article class="user-post col-4">
+            <div class="post-header row">
+              <h3 class="post-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna.</h3>
+              <h3 class="post-rating">*****</h3>
+            </div>
+            <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum mollis orci. Maecenas fringilla enim eu blandit pretium. Sed metus arcu, egestas eget est ut, sollicitudin scelerisque justo. Pellentesque dapibus eros condimentum ipsum tincidunt, id venenatis sapien dignissim. Aliquam non accumsan tellus. Donec sit amet convallis sapien, ut venenatis dolor. Curabitur vulputate malesuada erat a consectetur. Pellentesque tincidunt egestas mi, vitae semper ligula.</p>
+            <div class="post-footer row">
+                <span class="post-user">By: Jonathan Owens</span>
+                <div><span class="post-date">June 9, 2018</span></div>
+              </div>
+          </article>
+          <article class="user-post col-4">
+              <div class="post-header row">
+                <h3 class="post-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna.</h3>
+                <h3 class="post-rating">*****</h3>
+              </div>
+              <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar consectetur magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam elementum mollis orci. Maecenas fringilla enim eu blandit pretium. Sed metus arcu, egestas eget est ut, sollicitudin scelerisque justo. Pellentesque dapibus eros condimentum ipsum tincidunt, id venenatis sapien dignissim. Aliquam non accumsan tellus. Donec sit amet convallis sapien, ut venenatis dolor. Curabitur vulputate malesuada erat a consectetur. Pellentesque tincidunt egestas mi, vitae semper ligula.</p>
+              <div class="post-footer row">
+                  <span class="post-user">By: Jonathan Owens</span>
+                  <div><span class="post-date">June 9, 2018</span></div>
+                </div>
+            </article>
+
+    </div>
+
+    <div id="sidebar">
+        <!--
+        simpler-sidebar will handle #sidebar's position.
+      
+        To let the content of your sidebar overflow, especially when you have a lot of content in it, you have to add a "wrapper" that wraps all content.
+      
+        TIP: provide a background color.
+        -->
+        <div id="sidebar-wrapper" class="sidebar-wrapper">
+          <!--
+          Links below are just an example. Give each clickable element, for example links, a class to trigger the closing animation.
+          -->
+          <a class="close-sidebar" href="#">Link</a>
+          <a class="close-sidebar" href="#">Link</a>
+          <a class="close-sidebar" href="#">Link</a>
+          <a class="close-sidebar" href="#">Link</a>
+        </div>
+      </div>
+
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+      <script src="jquery.simpler-sidebar.min.js"></script>
+
+  </body>
+</html>
