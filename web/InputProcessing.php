@@ -26,8 +26,8 @@
     <div class="container-fluid" id="topBarContainer">
    <a href="index.html"> <img src="images/TopBar.png" id="topBarImg"> </a>
     </div>
-<h1> learn </h1>
-
+<h1> Input Processing </h1>
+<?php echo $_POST["Title"]; ?>
 
   </body>
 </html>
