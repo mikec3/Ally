@@ -41,6 +41,7 @@
 width: 100%;
 margin-left: auto;
 margin-right: auto;
+text-align: center;
 }
 
 .button {
@@ -74,10 +75,17 @@ margin-right: auto;
 margin: 0 auto;
 display: inline-block;
 }
+#infoIcon{
+margin-top: -5em;
+margin-bottom: -10em;
+}
+
+.blockText{
+ margin: 2em 2em 2em 2em; 
+}
 
 #contributeForm{
  border: 1px black;  
-
 }
 
 #contributeForm h5 {
