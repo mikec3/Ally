@@ -23,28 +23,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-    <div class="container-fluid" id="topBarContainerCont">
-   <a href="index.html"> <img src="images/AllyHandsWhite.png" id="topBarImg"> </a>
+    <div class="container-fluid" id="topBarContainer">
+   <a href="index.html"> <img src="images/TopBar.png" id="topBarImg"> </a>
     </div>
-<div class="container-fluid">
-  <form id="contributeForm">
-      <input type="text" name="Title" placeholder="Title"><br>
-      <p> Category of harrasment </p>
-      <p></p>
-      Gender<input type="checkbox" name="gender" value="gender"/>
-      <p></p>
-      Race<input type="checkbox" name="race" value="race"/>
-      <p></p>
-      Socio Economic<input type="checkbox" name="socio economic" value="socio economic"/>
-      <p></p>
-      Sexual Orientation<input type="checkbox" name="gender" value="gender"/>
-      <p></p>
-          <p> Description </p>
-          <textarea rows="10" cols="50"></textarea>
-          <p></p>
-          <button type="submit">Submit</button>
-        </div>
-    </form>
-</div>
+<h1> learn </h1>
+
+
   </body>
 </html>
