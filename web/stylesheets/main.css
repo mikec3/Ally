@@ -76,10 +76,33 @@ display: inline-block;
 }
 
 #contributeForm{
- border: 1px black;   
+ border: 1px black;  
+
+}
+
+#contributeForm h5 {
+ text-align: center; 
+}
+#contributeForm textarea {
+ width: 100%;
+}
+
+button {
+ margin: 0 auto;
+ display: block;   
+ width: 10em;
+ border-radius: .5em;
+}
+
+input[type=checkbox] {
+  vertical-align: middle;
+  float: right;
 }
 
 #titleInput{
- border-radius: 5%;   
+    margin-top: 1em;
+    margin-bottom: 1em;
+ border-radius: .8em;   
+ width: 94%;
 }
 
