@@ -65,8 +65,16 @@ margin-right: auto;
  background-color: #053ba8; 
  text-align: center;
 }
+#topBarContainerCont{
+ background-color: #FFFFFF; 
+ text-align: center;
+}
 
 #topBarImg{
 margin: 0 auto;
 display: inline-block;
+}
+
+#contributeForm{
+ border: 1px black;   
 }
